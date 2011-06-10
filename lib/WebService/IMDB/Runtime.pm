@@ -1,4 +1,4 @@
-# $Id: Runtime.pm 6444 2011-06-09 19:37:45Z chris $
+# $Id: Runtime.pm 6449 2011-06-10 01:01:53Z chris $
 
 =head1 NAME
 
@@ -11,7 +11,7 @@ package WebService::IMDB::Runtime;
 use strict;
 use warnings;
 
-our $VERSION = '0.02';
+our $VERSION = '0.03';
 
 use Carp;
 our @CARP_NOT = qw(WebService::IMDB WebService::IMDB::Title);

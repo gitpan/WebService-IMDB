@@ -1,4 +1,4 @@
-# $Id: IMDB.pm 6444 2011-06-09 19:37:45Z chris $
+# $Id: IMDB.pm 6450 2011-06-10 01:02:42Z chris $
 
 =head1 NAME
 
@@ -42,7 +42,7 @@ package WebService::IMDB;
 use strict;
 use warnings;
 
-our $VERSION = '0.02';
+our $VERSION = '0.03';
 
 use base qw(Class::Accessor);
 
@@ -92,10 +92,6 @@ Constructor.
 
 =item domain - Domain from which to request data.  Defaults to "app.imdb.com"
 
-=item username
-
-=item password
-
 =back
 
 =cut
@@ -128,8 +124,6 @@ sub new {
 
 
 =head2 search(%args)
-
-TODO
 
 %args can contain:
 

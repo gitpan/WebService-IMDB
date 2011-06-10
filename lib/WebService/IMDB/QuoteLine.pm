@@ -1,4 +1,4 @@
-# $Id: QuoteLine.pm 6444 2011-06-09 19:37:45Z chris $
+# $Id: QuoteLine.pm 6449 2011-06-10 01:01:53Z chris $
 
 =head1 NAME
 
@@ -11,7 +11,7 @@ package WebService::IMDB::QuoteLine;
 use strict;
 use warnings;
 
-our $VERSION = '0.02';
+our $VERSION = '0.03';
 
 use base qw(Class::Accessor);
 
