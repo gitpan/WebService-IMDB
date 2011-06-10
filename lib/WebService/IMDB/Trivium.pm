@@ -1,4 +1,4 @@
-# $Id: Trivium.pm 6433 2011-06-09 17:35:15Z chris $
+# $Id: Trivium.pm 6444 2011-06-09 19:37:45Z chris $
 
 =head1 NAME
 
@@ -15,7 +15,7 @@ package WebService::IMDB::Trivium;
 use strict;
 use warnings;
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 use base qw(WebService::IMDB::DateText);
 

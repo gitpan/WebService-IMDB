@@ -1,4 +1,4 @@
-# $Id: Stub.pm 6439 2011-06-09 18:46:01Z chris $
+# $Id: Stub.pm 6444 2011-06-09 19:37:45Z chris $
 
 =head1 NAME
 
@@ -15,7 +15,7 @@ package WebService::IMDB::Name::Stub;
 use strict;
 use warnings;
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 use base qw(WebService::IMDB::Name);
 

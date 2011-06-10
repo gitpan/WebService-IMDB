@@ -1,11 +1,11 @@
-# $Id: Base.pm 6182 2011-02-05 18:26:13Z chris $
+# $Id: Base.pm 6444 2011-06-09 19:37:45Z chris $
 
 package WebService::IMDB::Base;
 
 use strict;
 use warnings;
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 use base qw(Class::Accessor);
 

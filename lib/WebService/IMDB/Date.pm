@@ -1,4 +1,4 @@
-# $Id: Date.pm 6427 2011-06-09 17:05:16Z chris $
+# $Id: Date.pm 6444 2011-06-09 19:37:45Z chris $
 
 =head1 NAME
 
@@ -15,7 +15,7 @@ package WebService::IMDB::Date;
 use strict;
 use warnings;
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 use Carp;
 our @CARP_NOT = qw(WebService::IMDB WebService::IMDB::Trivium);

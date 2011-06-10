@@ -1,4 +1,4 @@
-# $Id: DateText.pm 6427 2011-06-09 17:05:16Z chris $
+# $Id: DateText.pm 6444 2011-06-09 19:37:45Z chris $
 
 =head1 NAME
 
@@ -11,7 +11,7 @@ package WebService::IMDB::DateText;
 use strict;
 use warnings;
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 use base qw(Class::Accessor);
 

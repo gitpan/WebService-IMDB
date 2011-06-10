@@ -1,2 +1,5 @@
-0.01 2xxx-xx-xx
+0.02 20xx-xx-xx
+	- Fixed missing items in MANIFEST
+
+0.01 2011-06-09
 	- First public release.

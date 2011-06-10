@@ -28,6 +28,7 @@ lib/WebService/IMDB/Plot.pm
 lib/WebService/IMDB/Quote.pm
 lib/WebService/IMDB/QuoteLine.pm
 lib/WebService/IMDB/Review.pm
+lib/WebService/IMDB/Runtime.pm
 lib/WebService/IMDB/Season.pm
 lib/WebService/IMDB/Title.pm
 lib/WebService/IMDB/Title/Stub.pm
@@ -35,5 +36,6 @@ lib/WebService/IMDB/Trailer.pm
 lib/WebService/IMDB/Trivium.pm
 lib/WebService/IMDB/UserComment.pm
 lib/WebService/IMDB/WhereNow.pm
+t/extended.t
 t/imdb.t
 META.yml                                 Module meta-data (added by MakeMaker)

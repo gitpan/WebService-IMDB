@@ -1,4 +1,4 @@
-# $Id: Goof.pm 6430 2011-06-09 17:24:15Z chris $
+# $Id: Goof.pm 6444 2011-06-09 19:37:45Z chris $
 
 =head1 NAME
 
@@ -11,7 +11,7 @@ package WebService::IMDB::Goof;
 use strict;
 use warnings;
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 use base qw(Class::Accessor);
 

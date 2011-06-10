@@ -1,4 +1,4 @@
-# $Id: Quote.pm 6442 2011-06-09 19:15:37Z chris $
+# $Id: Quote.pm 6444 2011-06-09 19:37:45Z chris $
 
 =head1 NAME
 
@@ -11,7 +11,7 @@ package WebService::IMDB::Quote;
 use strict;
 use warnings;
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 use base qw(Class::Accessor);
 
