@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name:               WebService-IMDB
-version:            0.04
+version:            0.05
 abstract:           OO Perl interface to the Internet Movie Database imdb.com
 author:
     - Christopher Key <cjk32@cam.ac.uk>
