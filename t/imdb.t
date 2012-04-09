@@ -1,5 +1,5 @@
 #!/usr/bin/perl
-# $Id: imdb.t 6426 2011-06-09 16:51:33Z chris $
+# $Id: imdb.t 7352 2011-12-28 20:16:30Z chris $
 
 use strict;
 use warnings;
@@ -10,7 +10,7 @@ use Test::More tests => 119;
 
 BEGIN { use_ok('WebService::IMDB'); }
 
-my $ws = new_ok('WebService::IMDB');
+my $ws = new_ok('WebService::IMDB', ['agent' => "WebService::IMDB::Test/0.1"]);
 
 diag("IMDB copyright statement: " . $ws->copyright());
 

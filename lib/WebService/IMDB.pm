@@ -1,4 +1,4 @@
-# $Id: IMDB.pm 6450 2011-06-10 01:02:42Z chris $
+# $Id: IMDB.pm 7351 2011-12-28 20:16:18Z chris $
 
 =head1 NAME
 
@@ -42,7 +42,7 @@ package WebService::IMDB;
 use strict;
 use warnings;
 
-our $VERSION = '0.03';
+our $VERSION = '0.04';
 
 use base qw(Class::Accessor);
 
@@ -115,7 +115,7 @@ sub new {
 
     $self->_useragent(LWP::UserAgent->new());
     $self->_useragent()->env_proxy();
-    $self->_useragent()->agent("WebService::IMDB/$VERSION");
+    $self->_useragent()->agent($args{'agent'} || "WebService::IMDB/$VERSION");
     $self->_useragent()->conn_cache(LWP::ConnCache->new());
     $self->_useragent()->conn_cache()->total_capacity(3);
 

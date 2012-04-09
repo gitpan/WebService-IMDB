@@ -1,4 +1,4 @@
-# $Id: Encoding.pm 6449 2011-06-10 01:01:53Z chris $
+# $Id: Encoding.pm 7350 2011-12-28 20:12:24Z chris $
 
 =head1 NAME
 
@@ -11,7 +11,7 @@ package WebService::IMDB::Encoding;
 use strict;
 use warnings;
 
-our $VERSION = '0.03';
+our $VERSION = '0.04';
 
 use base qw(Class::Accessor);
 
